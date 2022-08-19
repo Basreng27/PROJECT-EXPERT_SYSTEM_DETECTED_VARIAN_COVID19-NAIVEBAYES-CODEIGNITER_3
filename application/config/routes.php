@@ -80,6 +80,7 @@ $route['delete_admin/(:any)'] = 'Admin/delete_admin/$1';
 //dokter
 $route['logout'] = 'Page/logout';
 $route['dashboard_dokter'] = 'Dokter/dashboard_dokter';
+$route['riwayat'] = 'Dokter/riwayat';
 $route['profile_dokter'] = 'Dokter/profile_dokter';
 $route['proses_edit_profile_dokter'] = 'Dokter/proses_edit_profile_dokter';
 //data gejala

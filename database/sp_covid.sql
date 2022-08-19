@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Waktu pembuatan: 31 Jul 2022 pada 01.29
+-- Waktu pembuatan: 19 Agu 2022 pada 01.05
 -- Versi server: 5.7.33
 -- Versi PHP: 7.4.19
 
@@ -64,43 +64,29 @@ CREATE TABLE `aturan_pakar` (
 --
 
 INSERT INTO `aturan_pakar` (`id_aturan_pakar`, `kode_virus`, `kode_gejala`, `bobot`, `tampung`, `tampung_ada`, `tampung_tidak_ada`) VALUES
-(4, 'B.1.1.529', 'B', 1, 1, 0, 0),
 (8, 'B.1.1.529', 'BB', 0, 1, 0, 0),
 (10, 'B.1.1.529', 'D', 0, 1, 0, 0),
-(12, 'B.1.1.7', 'B', 0, 1, 0, 0),
 (13, 'B.1.1.7', 'BB', 0, 1, 0, 0),
 (14, 'B.1.1.7', 'D', 0, 1, 0, 0),
-(15, 'B.1.427', 'B', 1, 1, 0, 0),
 (16, 'B.1.427', 'BB', 0, 1, 0, 0),
 (17, 'B.1.427', 'D', 0, 1, 0, 0),
-(21, 'B.1.526', 'B', 0, 1, 0, 0),
-(22, 'B.1.526', 'BB', 0, 1, 0, 0),
-(23, 'B.1.526', 'D', 0, 1, 0, 0),
-(30, 'B.1.621', 'B', 1, 1, 0, 0),
 (31, 'B.1.621', 'BB', 0, 1, 0, 0),
 (32, 'B.1.621', 'D', 1, 1, 0, 0),
-(36, 'BA.2', 'B', 1, 1, 0, 0),
 (37, 'BA.2', 'BB', 0, 1, 0, 0),
 (38, 'BA.2', 'D', 0, 1, 0, 0),
-(39, 'BA.3', 'B', 0, 1, 0, 0),
 (40, 'BA.3', 'BB', 0, 1, 0, 0),
 (41, 'BA.3', 'D', 0, 1, 0, 0),
-(42, 'BA.4', 'B', 1, 1, 0, 0),
 (43, 'BA.4', 'BB', 1, 1, 0, 0),
 (44, 'BA.4', 'D', 0, 1, 0, 0),
-(45, 'BA.5', 'B', 1, 1, 0, 0),
 (46, 'BA.5', 'BB', 1, 1, 0, 0),
 (47, 'BA.5', 'D', 0, 1, 0, 0),
-(48, 'C.37', 'B', 0, 1, 0, 0),
 (49, 'C.37', 'BB', 0, 1, 0, 0),
 (50, 'C.37', 'D', 0, 1, 0, 0),
-(57, 'P.3', 'B', 0, 1, 0, 0),
 (58, 'P.3', 'BB', 0, 1, 0, 0),
 (59, 'P.3', 'D', 0, 1, 0, 0),
 (60, 'B.1.1.529', 'DE', 0, 1, 0, 0),
 (61, 'B.1.1.7', 'DE', 0, 1, 0, 0),
 (63, 'B.1.427', 'DE', 0, 1, 0, 0),
-(65, 'B.1.526', 'DE', 0, 1, 0, 0),
 (68, 'B.1.621', 'DE', 0, 1, 0, 0),
 (70, 'BA.2', 'DE', 0, 1, 0, 0),
 (71, 'BA.3', 'DE', 0, 1, 0, 0),
@@ -111,7 +97,6 @@ INSERT INTO `aturan_pakar` (`id_aturan_pakar`, `kode_virus`, `kode_gejala`, `bob
 (78, 'B.1.1.529', 'HIPP', 1, 1, 0, 0),
 (79, 'B.1.1.7', 'HIPP', 1, 1, 0, 0),
 (81, 'B.1.427', 'HIPP', 0, 1, 0, 0),
-(83, 'B.1.526', 'HIPP', 0, 1, 0, 0),
 (86, 'B.1.621', 'HIPP', 1, 1, 0, 0),
 (88, 'BA.2', 'HIPP', 0, 1, 0, 0),
 (89, 'BA.3', 'HIPP', 0, 1, 0, 0),
@@ -119,10 +104,9 @@ INSERT INTO `aturan_pakar` (`id_aturan_pakar`, `kode_virus`, `kode_gejala`, `bob
 (91, 'BA.5', 'HIPP', 0, 1, 0, 0),
 (92, 'C.37', 'HIPP', 0, 1, 0, 0),
 (95, 'P.3', 'HIPP', 0, 1, 0, 0),
-(96, 'B.1.1.529', 'K', 1, 1, 0, 0),
+(96, 'B.1.1.529', 'K', 1, 1.26562, 0.125, 0.125),
 (97, 'B.1.1.7', 'K', 0, 1, 0, 0),
 (99, 'B.1.427', 'K', 0, 1, 0, 0),
-(101, 'B.1.526', 'K', 0, 1, 0, 0),
 (104, 'B.1.621', 'K', 0, 1, 0, 0),
 (106, 'BA.2', 'K', 0, 1, 0, 0),
 (107, 'BA.3', 'K', 0, 1, 0, 0),
@@ -133,7 +117,6 @@ INSERT INTO `aturan_pakar` (`id_aturan_pakar`, `kode_virus`, `kode_gejala`, `bob
 (114, 'B.1.1.529', 'KRHP', 0, 1, 0, 0),
 (115, 'B.1.1.7', 'KRHP', 0, 1, 0, 0),
 (117, 'B.1.427', 'KRHP', 0, 1, 0, 0),
-(119, 'B.1.526', 'KRHP', 0, 1, 0, 0),
 (122, 'B.1.621', 'KRHP', 0, 1, 0, 0),
 (124, 'BA.2', 'KRHP', 0, 1, 0, 0),
 (125, 'BA.3', 'KRHP', 0, 1, 0, 0),
@@ -144,7 +127,6 @@ INSERT INTO `aturan_pakar` (`id_aturan_pakar`, `kode_virus`, `kode_gejala`, `bob
 (132, 'B.1.1.529', 'MM', 0, 1, 0, 0),
 (133, 'B.1.1.7', 'MM', 0, 1, 0, 0),
 (135, 'B.1.427', 'MM', 0, 1, 0, 0),
-(137, 'B.1.526', 'MM', 0, 1, 0, 0),
 (140, 'B.1.621', 'MM', 0, 1, 0, 0),
 (142, 'BA.2', 'MM', 0, 1, 0, 0),
 (143, 'BA.3', 'MM', 0, 1, 0, 0),
@@ -155,7 +137,6 @@ INSERT INTO `aturan_pakar` (`id_aturan_pakar`, `kode_virus`, `kode_gejala`, `bob
 (150, 'B.1.1.529', 'ND', 1, 1, 0, 0),
 (151, 'B.1.1.7', 'ND', 1, 1, 0, 0),
 (153, 'B.1.427', 'ND', 0, 1, 0, 0),
-(155, 'B.1.526', 'ND', 0, 1, 0, 0),
 (158, 'B.1.621', 'ND', 0, 1, 0, 0),
 (160, 'BA.2', 'ND', 0, 1, 0, 0),
 (161, 'BA.3', 'ND', 0, 1, 0, 0),
@@ -166,7 +147,6 @@ INSERT INTO `aturan_pakar` (`id_aturan_pakar`, `kode_virus`, `kode_gejala`, `bob
 (168, 'B.1.1.529', 'P', 1, 1, 0, 0),
 (169, 'B.1.1.7', 'P', 0, 1, 0, 0),
 (171, 'B.1.427', 'P', 1, 1, 0, 0),
-(173, 'B.1.526', 'P', 0, 1, 0, 0),
 (176, 'B.1.621', 'P', 0, 1, 0, 0),
 (178, 'BA.2', 'P', 1, 1, 0, 0),
 (179, 'BA.3', 'P', 0, 1, 0, 0),
@@ -177,7 +157,6 @@ INSERT INTO `aturan_pakar` (`id_aturan_pakar`, `kode_virus`, `kode_gejala`, `bob
 (186, 'B.1.1.529', 'SK', 1, 1, 0, 0),
 (187, 'B.1.1.7', 'SK', 0, 1, 0, 0),
 (189, 'B.1.427', 'SK', 1, 1, 0, 0),
-(191, 'B.1.526', 'SK', 0, 1, 0, 0),
 (194, 'B.1.621', 'SK', 0, 1, 0, 0),
 (196, 'BA.2', 'SK', 0, 1, 0, 0),
 (197, 'BA.3', 'SK', 0, 1, 0, 0),
@@ -188,7 +167,6 @@ INSERT INTO `aturan_pakar` (`id_aturan_pakar`, `kode_virus`, `kode_gejala`, `bob
 (204, 'B.1.1.529', 'SN', 1, 1, 0, 0),
 (205, 'B.1.1.7', 'SN', 1, 1, 0, 0),
 (207, 'B.1.427', 'SN', 1, 1, 0, 0),
-(209, 'B.1.526', 'SN', 0, 1, 0, 0),
 (212, 'B.1.621', 'SN', 0, 1, 0, 0),
 (214, 'BA.2', 'SN', 0, 1, 0, 0),
 (215, 'BA.3', 'SN', 0, 1, 0, 0),
@@ -199,7 +177,6 @@ INSERT INTO `aturan_pakar` (`id_aturan_pakar`, `kode_virus`, `kode_gejala`, `bob
 (222, 'B.1.1.529', 'ST', 1, 1, 0, 0),
 (223, 'B.1.1.7', 'ST', 0, 1, 0, 0),
 (225, 'B.1.427', 'ST', 1, 1, 0, 0),
-(227, 'B.1.526', 'ST', 0, 1, 0, 0),
 (230, 'B.1.621', 'ST', 0, 1, 0, 0),
 (232, 'BA.2', 'ST', 1, 1, 0, 0),
 (233, 'BA.3', 'ST', 0, 1, 0, 0),
@@ -210,9 +187,8 @@ INSERT INTO `aturan_pakar` (`id_aturan_pakar`, `kode_virus`, `kode_gejala`, `bob
 (240, 'B.1.1.529', 'F', 0, 1, 0, 0),
 (241, 'B.1.1.7', 'F', 0, 1, 0, 0),
 (243, 'B.1.427', 'F', 0, 1, 0, 0),
-(245, 'B.1.526', 'F', 0, 1, 0, 0),
 (248, 'B.1.621', 'F', 0, 1, 0, 0),
-(250, 'BA.2', 'F', 1, 1, 0, 0),
+(250, 'BA.2', 'F', 1, 1.30909, 0.2, 0.0909091),
 (251, 'BA.3', 'F', 0, 1, 0, 0),
 (252, 'BA.4', 'F', 0, 1, 0, 0),
 (253, 'BA.5', 'F', 0, 1, 0, 0),
@@ -221,7 +197,6 @@ INSERT INTO `aturan_pakar` (`id_aturan_pakar`, `kode_virus`, `kode_gejala`, `bob
 (258, 'B.1.1.529', 'BPP', 0, 1, 0, 0),
 (259, 'B.1.1.7', 'BPP', 0, 1, 0, 0),
 (261, 'B.1.427', 'BPP', 0, 1, 0, 0),
-(263, 'B.1.526', 'BPP', 0, 1, 0, 0),
 (266, 'B.1.621', 'BPP', 0, 1, 0, 0),
 (268, 'BA.2', 'BPP', 1, 1, 0, 0),
 (269, 'BA.3', 'BPP', 0, 1, 0, 0),
@@ -229,14 +204,13 @@ INSERT INTO `aturan_pakar` (`id_aturan_pakar`, `kode_virus`, `kode_gejala`, `bob
 (271, 'BA.5', 'BPP', 0, 1, 0, 0),
 (272, 'C.37', 'BPP', 0, 1, 0, 0),
 (275, 'P.3', 'BPP', 0, 1, 0, 0),
-(294, 'B.1.617.2', 'B', 1, 1, 0, 0),
 (295, 'B.1.617.2', 'BB', 0, 1, 0, 0),
 (296, 'B.1.617.2', 'BPP', 0, 1, 0, 0),
 (297, 'B.1.617.2', 'D', 0, 1, 0, 0),
 (298, 'B.1.617.2', 'DE', 0, 1, 0, 0),
 (299, 'B.1.617.2', 'F', 0, 1, 0, 0),
 (300, 'B.1.617.2', 'HIPP', 1, 1, 0, 0),
-(301, 'B.1.617.2', 'K', 1, 1, 0, 0),
+(301, 'B.1.617.2', 'K', 1, 1.26984, 0.142857, 0.111111),
 (302, 'B.1.617.2', 'KRHP', 0, 1, 0, 0),
 (303, 'B.1.617.2', 'MM', 0, 1, 0, 0),
 (304, 'B.1.617.2', 'ND', 0, 1, 0, 0),
@@ -244,7 +218,6 @@ INSERT INTO `aturan_pakar` (`id_aturan_pakar`, `kode_virus`, `kode_gejala`, `bob
 (306, 'B.1.617.2', 'SK', 1, 1, 0, 0),
 (307, 'B.1.617.2', 'SN', 1, 1, 0, 0),
 (308, 'B.1.617.2', 'ST', 1, 1, 0, 0),
-(309, 'B. 1.351', 'B', 0, 1, 0, 0),
 (310, 'B. 1.351', 'BB', 0, 1, 0, 0),
 (311, 'B. 1.351', 'BPP', 0, 1, 0, 0),
 (312, 'B. 1.351', 'D', 0, 1, 0, 0),
@@ -263,7 +236,6 @@ INSERT INTO `aturan_pakar` (`id_aturan_pakar`, `kode_virus`, `kode_gejala`, `bob
 (325, 'B.1.1.529', 'JJ', 0, 1, 0, 0),
 (326, 'B.1.1.7', 'JJ', 0, 1, 0, 0),
 (327, 'B.1.427', 'JJ', 0, 1, 0, 0),
-(328, 'B.1.526', 'JJ', 0, 1, 0, 0),
 (329, 'B.1.617.2', 'JJ', 0, 1, 0, 0),
 (330, 'B.1.621', 'JJ', 0, 1, 0, 0),
 (331, 'BA.2', 'JJ', 0, 1, 0, 0),
@@ -272,7 +244,6 @@ INSERT INTO `aturan_pakar` (`id_aturan_pakar`, `kode_virus`, `kode_gejala`, `bob
 (334, 'BA.5', 'JJ', 0, 1, 0, 0),
 (335, 'C.37', 'JJ', 0, 1, 0, 0),
 (336, 'P.3', 'JJ', 0, 1, 0, 0),
-(350, 'JJ', 'B', 0, 1, 0, 0),
 (351, 'JJ', 'BB', 0, 1, 0, 0),
 (352, 'JJ', 'BPP', 0, 1, 0, 0),
 (353, 'JJ', 'D', 0, 1, 0, 0),
@@ -305,7 +276,6 @@ CREATE TABLE `gejala` (
 --
 
 INSERT INTO `gejala` (`kode_gejala`, `nama_gejala`) VALUES
-('B', 'Batuk\r\n'),
 ('BB', 'Bersin - Bersin'),
 ('BPP', 'Badan Pegal - Pegal'),
 ('D', 'Demam'),
@@ -344,10 +314,30 @@ CREATE TABLE `kasus` (
 --
 
 INSERT INTO `kasus` (`id_kasus`, `nama`, `jenis_kelamin`, `alamat`, `no_telepon`, `kode_virus`, `umur`, `tanggal`) VALUES
-(20, 'usep', 'Laki Laki', 'cijambe', '089978867767', 'B.1.526', 22, '2022-07-14'),
 (22, 'adam', 'Laki Laki', 'cijambi', '089998878890', 'BA.2', 23, '2022-07-22'),
 (27, 'Tantra Sanjaya', 'Laki Laki', 'jl. Cipedes Tengah No. 187 Rt. 04 Rw. 03 Kel. Sukagalih Kec. Sukajadi Kota Bandung Provinsi Jawa Barat', '086874628326', 'B.1.621', 23, '2022-07-22'),
-(30, 'JJ', 'Perempuan', 'cibinong', '089978876', 'JJ', 22, '2022-07-30');
+(30, 'JJ', 'Perempuan', 'cibinong', '089978876', 'JJ', 22, '2022-07-30'),
+(31, 'sd', NULL, '123', '123', 'JJ', 123, '2022-08-10');
+
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `riwayat_delete`
+--
+
+CREATE TABLE `riwayat_delete` (
+  `id` int(11) NOT NULL,
+  `kode_virus` varchar(255) NOT NULL,
+  `nama_virus` varchar(255) NOT NULL,
+  `solusi` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data untuk tabel `riwayat_delete`
+--
+
+INSERT INTO `riwayat_delete` (`id`, `kode_virus`, `nama_virus`, `solusi`) VALUES
+(1, 'B.1.526', 'Varian Iota', '1. Minum obat yang dijual bebas untuk mengurangi rasa sakit, demam, dan batuk. Namun, jangan berikan aspirin pada anak-anak. Selain itu, jangan berikan obat batuk pada anak di bawah empat tahun. 2. Gunakan pelembap ruangan atau mandi air panas untuk membantu meredakan sakit tenggorokan dan batuk. 3. Perbanyak istirahat. 4. Perbanyak asupan cairan tubuh.');
 
 -- --------------------------------------------------------
 
@@ -371,7 +361,6 @@ INSERT INTO `virus` (`kode_virus`, `nama_virus`, `solusi`, `tampung`) VALUES
 ('B.1.1.529', 'Varian Omicron', '1. Minum obat yang dijual bebas untuk mengurangi rasa sakit, demam, dan batuk. Namun, jangan berikan aspirin pada anak-anak. Selain itu, jangan berikan obat batuk pada anak di bawah empat tahun. 2. Gunakan pelembap ruangan atau mandi air panas untuk membantu meredakan sakit tenggorokan dan batuk. 3. Perbanyak istirahat. 4. Perbanyak asupan cairan tubuh.\r\n', 0),
 ('B.1.1.7', 'Varian Alfa', '1. Minum obat yang dijual bebas untuk mengurangi rasa sakit, demam, dan batuk. Namun, jangan berikan aspirin pada anak-anak. Selain itu, jangan berikan obat batuk pada anak di bawah empat tahun. 2. Gunakan pelembap ruangan atau mandi air panas untuk membantu meredakan sakit tenggorokan dan batuk. 3. Perbanyak istirahat. 4. Perbanyak asupan cairan tubuh.\r\n', 0),
 ('B.1.427', 'Varian Epsilon', '1. Minum obat yang dijual bebas untuk mengurangi rasa sakit, demam, dan batuk. Namun, jangan berikan aspirin pada anak-anak. Selain itu, jangan berikan obat batuk pada anak di bawah empat tahun. 2. Gunakan pelembap ruangan atau mandi air panas untuk membantu meredakan sakit tenggorokan dan batuk. 3. Perbanyak istirahat. 4. Perbanyak asupan cairan tubuh.\r\n', 0),
-('B.1.526', 'Varian Iota', '1. Minum obat yang dijual bebas untuk mengurangi rasa sakit, demam, dan batuk. Namun, jangan berikan aspirin pada anak-anak. Selain itu, jangan berikan obat batuk pada anak di bawah empat tahun. 2. Gunakan pelembap ruangan atau mandi air panas untuk membantu meredakan sakit tenggorokan dan batuk. 3. Perbanyak istirahat. 4. Perbanyak asupan cairan tubuh.', 0),
 ('B.1.617.2', 'Varian Delta', 'Istirahat yang cukup', 0),
 ('B.1.621', 'Varian Mu', '1. Minum obat yang dijual bebas untuk mengurangi rasa sakit, demam, dan batuk. Namun, jangan berikan aspirin pada anak-anak. Selain itu, jangan berikan obat batuk pada anak di bawah empat tahun. 2. Gunakan pelembap ruangan atau mandi air panas untuk membantu meredakan sakit tenggorokan dan batuk. 3. Perbanyak istirahat. 4. Perbanyak asupan cairan tubuh.\r\n', 0),
 ('BA.2', 'Subvarian Omicorn BA.2', '1. Minum obat yang dijual bebas untuk mengurangi rasa sakit, demam, dan batuk. Namun, jangan berikan aspirin pada anak-anak. Selain itu, jangan berikan obat batuk pada anak di bawah empat tahun. 2. Gunakan pelembap ruangan atau mandi air panas untuk membantu meredakan sakit tenggorokan dan batuk. 3. Perbanyak istirahat. 4. Perbanyak asupan cairan tubuh.\r\n', 0),
@@ -414,6 +403,12 @@ ALTER TABLE `kasus`
   ADD KEY `kode_virus` (`kode_virus`);
 
 --
+-- Indeks untuk tabel `riwayat_delete`
+--
+ALTER TABLE `riwayat_delete`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indeks untuk tabel `virus`
 --
 ALTER TABLE `virus`
@@ -433,7 +428,13 @@ ALTER TABLE `aturan_pakar`
 -- AUTO_INCREMENT untuk tabel `kasus`
 --
 ALTER TABLE `kasus`
-  MODIFY `id_kasus` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+  MODIFY `id_kasus` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
+
+--
+-- AUTO_INCREMENT untuk tabel `riwayat_delete`
+--
+ALTER TABLE `riwayat_delete`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- Ketidakleluasaan untuk tabel pelimpahan (Dumped Tables)
